@@ -24,3 +24,16 @@ Logged by Brooke Cloud on Sun 2026-11-22, 04:20 CST, at Aaron's request. Source:
 - Meter and browser work stays on the Mac: decide what "decommissioned" means.
 - Full backup and restore test of the cloud copy.
 - Aaron signs the cutover (gate G5).
+
+## Extra doubts from Cloud Brooke prep (Sun 2026-11-22, about 04:25 CST)
+Sent directly to Brooke Cloud. All are in the checklist; these are the ones it wants watched.
+1. **Memory store.** Live memory sits on the Mac. The repo only has a backup (agent-memory 41.0.0). Brooke Cloud has no live store yet.
+2. **Time zone.** The cloud scheduler runs on CDT, the Mac on Monterrey CST. Every routine must state its zone.
+3. **Session board and messaging.** Control tower and cross-session messages only work between local sessions. Decide the cloud equivalent. (Observed: Brooke Cloud can message local sessions directly; local sessions cannot reach Brooke Cloud.)
+4. **Mailbox transport.** Brooke Cloud can't edit Drive files it didn't create, or rewrite its own, so the mailbox moves to git or direct messages.
+5. **Connector read tests from Brooke Cloud.** Already used successfully in this session: Google Drive (read, create), Google Calendar (read, create), Granola (not yet), Gmail (not yet), Google Sheets (not yet), Slack (not yet), Atlassian (not yet).
+6. **Meter and browser work stays on the Mac.**
+7. **Meter passwords** need a home outside any repo.
+8. **Backup and restore test**, plus rollback within an hour.
+
+Writer rule unchanged: Cloud Brooke prep is the only committer to brock-home during the freeze, until Aaron says otherwise.
