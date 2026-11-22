@@ -37,3 +37,6 @@ Sent directly to Brooke Cloud. All are in the checklist; these are the ones it w
 8. **Backup and restore test**, plus rollback within an hour.
 
 Writer rule unchanged: Cloud Brooke prep is the only committer to brock-home during the freeze, until Aaron says otherwise.
+
+## Decision log
+- **Sun 2026-11-22 04:17 CST, Aaron:** "your memory is now the main one. local vault is decomissioned and archived starting now." Brooke Main and Cloud Brooke prep told to stop writing to the local vault; archive actions on the Mac wait for Aaron's go in those sessions. Open: who commits to brock-home now.
